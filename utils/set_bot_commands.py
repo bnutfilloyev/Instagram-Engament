@@ -8,5 +8,6 @@ async def set_default_commands(dp):
             types.BotCommand("help", "Help"),
             types.BotCommand('list', 'Sends list of photos'),
             types.BotCommand('rules', 'Sends the rules'),
+            types.BotCommand('views', 'Get views for the video'),
         ]
     )
